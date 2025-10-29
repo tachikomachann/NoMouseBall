@@ -1,0 +1,55 @@
+{
+        "name": "NomouseBall",
+        "lighting": "none",
+        "matrix": {
+                "rows": 2,
+                "cols": 2 
+        },
+        "uid": [
+                29,
+                86,
+                131,
+                104,
+                247,
+                195,
+                107,
+                89
+        ],
+        "customKeycodes": [
+                {
+                        "name": "DragScroll",
+                        "title": "Drag Scroll",
+                        "shortName": "Drag\nScroll"
+                },
+                {
+                        "name": "DragScrollH",
+                        "title": "Drag Scroll H",
+                        "shortName": "Drag\nScrollH"
+                },
+                {
+                        "name": "DragScrollV",
+                        "title": "Drag Scroll V",
+                        "shortName": "Drag\nScrollV"
+                },
+                {
+                        "name": "DPICycle",
+                        "title": "Change DPI",
+                        "shortName": "DPI\nCycle"
+                },
+                {
+                        "name": "AltTab",
+                        "title": "Alt + Tab",
+                        "shortName": "ALT\nTab"
+                }
+        ],
+        "layouts": {
+                "keymap": [
+                        [
+                                "1,0", "1,1"
+                        ],
+                        [
+                                "0,0", "0,1"                                
+                        ]
+                ]
+        }
+}

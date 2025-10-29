@@ -1,0 +1,35 @@
+{
+    "manufacturer": "Tachikoma",
+    "keyboard_name": "Nomouse Ball",
+    "maintainer": "Tachikoma",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "usb": {
+        "vid": "0x5A69",
+        "pid": "0x3360",
+        "device_version": "1.0.0"
+    },
+    "matrix_pins": {
+        "direct": [
+            [ "GP16",  "GP28",  "GP17",  "GP26"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "label":"Btn1", "x": 0, "y": 0},
+                {"matrix": [0, 1], "label":"Btn2", "x":1, "y":0},
+                {"matrix": [0, 2], "label":"Btn3", "x":2, "y":0},
+                {"matrix": [0, 3], "label":"B5n4", "x":3, "y":0}
+            ]
+        }
+    }
+}
